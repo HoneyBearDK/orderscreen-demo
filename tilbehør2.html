@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tilbehør 2</title>
+<style>
+.custom-horizontal-line {
+    border-top: 2px solid black;
+    position: absolute;
+    top: 3%; /* Juster den vertikale placering efter behov */
+    left: 9%; /* Juster den horisontale placering efter behov */
+    transform: translate(-94%, -50%);
+
+}
+
+.table-container {
+    position: relative; 
+}
+
+/* Nulstiller margener og polstring på hele dokumentet */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container til at indeholde firkanten og tabellen */
+.container {
+    position: relative; /* Sæt containerens position til relativ */
+}
+
+/* Definerer egenskaberne for firkanten */
+.firkant {
+    width: 233px; /* Ændr bredden efter behov */
+    height: 540px; /* Ændr højden efter behov */
+    background-color: #9E9E9E; /* Ændr farven efter behov */
+    position: absolute; /* Sæt firkantens position til absolut */
+    top: 0; /* Placer firkanten øverst i containeren */
+    left: 0; /* Placer firkanten til venstre i containeren */
+}
+
+/* Justerer margenen på tabellen for at skabe plads til firkanten */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: 240px; /* Juster margenen til at give plads til firkanten */
+}
+
+td, th {
+    text-align: left;
+    padding: 2px;
+}
+
+/* Stil for pop-up-tekst */
+#popupText {
+    position: absolute;
+    color: black;
+    padding: 23px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    display: none;
+    width: 175px;
+    height: 100px;
+    left: 20px; /* Ændre den horisontale position her efter behov */
+    top: -100px; /* Ændre den vertikale position her efter behov */
+}
+
+.popupContainer {
+    position: relative;
+    margin-top: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Container til at indeholde firkanten og tabellen -->
+<div class="container">
+    <!-- Opretter firkanten ved hjælp af <div> elementet -->
+    <div class="firkant"></div>
+
+    <table>
+	<tr>
+<td onclick="showText(this)"> <img src="img/bbq.png" height="50" width="50" </td>
+<td onclick="showText(this)"> <img src="img/sursød.png" height="50" width="50" </td>
+<td onclick="showText(this)"> <img src="img/karry.png" height="50" width="50" </td>
+<td onclick="showText(this)"> <img src="img/sennep.png" height="50" width="50" </td>
+<td></td>
+<td></td>
+<td></td>
+<td onclick="showText(this)"> <img src="img/ketchup.png" height="50" width="50" </td>
+<td onclick="showText(this)"> <img src="img/pfsauce.png" height="52" width="50" </td>
+<td> <a href="index 2.html"> <img src="img/close.png" height="50" width="50" </td>
+</tr>
+
+<tr>
+<td onclick="showText(this)"> <img src="img/mayodip.png" height="50" width="50" </td>
+<td onclick="showText(this)"> <img src="img/chedderdip.png" height="50" width="52" </td>
+<td onclick="showText(this)"> <img src="img/chillimayodip.png" height="50" width="50" </td>
+<td onclick="showText(this)"> <img src="img/garlicdip.png" height="50" width="50" </td>
+<td onclick="showText(this)"> <img src="img/bearnaisedip.png" height="50" width="50" </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td onclick="showText(this)"> <img src="img/tilbehør2.png" height="50" width="52" </td>
+</tr>
+        <tr>
+          <td> <img src="img/0.png" height="52" width="52"> </td>
+          <td> <img src="img/1.png" height="50" width="50"> </td>
+          <td> <img src="img/2.png" height="50" width="50"> </td>
+          <td> <img src="img/3.png" height="50" width="50"> </td>
+          <td> <img src="img/4.png" height="50" width="50"> </td>
+          <td> <img src="img/5.png" height="50" width="50"> </td>
+          <td> <img src="img/6.png" height="50" width="50"> </td>
+          <td> <img src="img/7.png" height="50" width="50"> </td>
+          <td> <img src="img/8.png" height="50" width="50"> </td>
+          <td> <img src="img/9.png" height="50" width="50"> </td>
+        </tr>
+		  <hr class="custom-horizontal-line" style="width: 50%; margin: 0 auto;"> <!-- Ændre længden og placeringen her -->
+
+        <tr>
+          <td> <a href="index 2.html"> <img src="img/hovedmenu.png" height="48" width="48"> </a> </td>
+          <td> <img src="img/mellemmenu.png" height="50" width="50"> </td>
+          <td> <img src="img/stormenu.png" height="50" width="50"> </td>
+          <td> <a href="happymeal2.html"> <img src="img/happymeal.png" height="47" width="47"> </a> </td>
+          <td> <a href="coinoffers2.html"> <img src="img/coinoffers.png" height="50" width="50"> </a> </td>
+          <td> <a href="is.html"> <img src="img/is.png" height="50" width="50"> </a> </td>
+          <td> <a href="tilbehør2.html"> <img src="img/tilbehør.png" height="50" width="50"> </a> </td>
+          <td> </td>
+          <td> <img src="img/lokalkampagne.png" height="50" width="55"> </td>
+          <td> <img src="img/mccafe.png" height="50" width="50"> </td>
+        </tr>
+        <tr>
+          <td> <img src="img/opgradertilmenu.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/hamburger.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/cheeseburger.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/bigmac.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/bigtasty.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/qp.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/fish.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/hotwings.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/hmstlkylling.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/voiditem.png" height="50" width="50"> </td>
+        </tr>
+        <tr>
+          <td onclick="showText(this)"> <img src="img/sizechange.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/mcchicken.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/mcfeast.png" height="50" width="50"> </td>
+          <td></td>
+          <td onclick="showText(this)"> <img src="img/dblbigtasty.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/mixbox.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/nuggets.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/tops.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/hmstlsyltede.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/clearchoice.png" height="50" width="50"> </td>
+        </tr>
+        <tr>
+          <td onclick="showText(this)"> <img src="img/lille.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/grovchicken.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/grovmcfeast.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/grovveggie.png" height="50" width="50"> </td>
+          <td></td>
+          <td onclick="showText(this)"> <img src="img/salat.png" height="50" width="50"> </td>
+          <td></td>
+          <td></td>
+          <td onclick="showText(this)"> <img src="img/hmstlkampagne.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/crewmenu.png" height="50" width="50"> </td>
+        </tr>
+        <tr>
+          <td onclick="showText(this)"> <img src="img/stor.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/fries.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/sharing.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/æbler.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/gulerødder.png" height="50" width="50"> </td>
+          <td></td>
+          <td onclick="showText(this)"> <img src="img/stregkode.png" height="50" width="50"> </td>
+          <td></td>
+          <td></td>
+          <td onclick="showText(this)"> <img src="img/showprices.png" height="50" width="50"> </td>
+        </tr>
+        <tr>
+          <td onclick="showText(this)"> <a href="drikke2.html"> <img src="img/drikke.png" height="50" width="52"> </a> </td>
+          <td onclick="showText(this)"> <img src="img/cola.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/fuzetea.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/sprite.png" height="50" width="50"> </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td onclick="showText(this)"> <img src="img/takeouttotal.png" height="50" width="50"> </td>
+        </tr>
+        <tr>
+          <td onclick="showText(this)"> <img src="img/mcdelivery.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/fanta.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/zero.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/danskvand.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/jordbærshake.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/chokoshake.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/vaniljeshake.png" height="50" width="50"> </td>
+          <td onclick="showText(this)"> <img src="img/kampagneshake.png" height="50" width="50"> </td>
+        </tr>
+    </table>
+
+    <!-- Element til at vise pop-up tekst -->
+    <div class="popupContainer">
+        <div id="popupText"></div>
+    </div>
+	  <div class="table-container">
+
+    <!-- JavaScript -->
+    <script>
+    function showText(cell) {
+        var popupText = document.getElementById("popupText");
+        if (cell.contains(document.querySelector('img[src="img/hamburger.png"]'))) {
+            popupText.innerHTML += "Hamburger 12kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/cheeseburger.png"]'))) {
+            popupText.innerHTML += "Cheeseburger 15kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/bigmac.png"]'))) {
+            popupText.innerHTML += "Big Mac 39kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/bigtasty.png"]'))) {
+            popupText.innerHTML += "Big Tasty Bacon 50kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/qp.png"]'))) {
+            popupText.innerHTML += "Quarter Pounder 39kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/fish.png"]'))) {
+            popupText.innerHTML += "Filet-O-Fish 30kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/hotwings.png"]'))) {
+            popupText.innerHTML += "Hot Wings 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/hmstlkylling.png"]'))) {
+            popupText.innerHTML += "Hmstl Kylling 60kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/mcchicken.png"]'))) {
+            popupText.innerHTML += "McChicken 39kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/mcfeast.png"]'))) {
+            popupText.innerHTML += "McFeast 47kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/dblbigtasty.png"]'))) {
+            popupText.innerHTML += "Dbl-Big Tasty 60kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/mixbox.png"]'))) {
+            popupText.innerHTML += "Mix Box 73kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/hmstlsyltede.png"]'))) {
+            popupText.innerHTML += "Hmstl Rødløg 60kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/grovchicken.png"]'))) {
+            popupText.innerHTML += "Grov-Chicken 39kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/grovmcfeast.png"]'))) {
+            popupText.innerHTML += "Grov-Feast 47kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/grovveggie.png"]'))) {
+            popupText.innerHTML += "Grov-Veggie 39kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/salat.png"]'))) {
+            popupText.innerHTML += "Salat 48kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/hmstlkampagne.png"]'))) {
+            popupText.innerHTML += "Hmstl Kampagn. 65kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/fries.png"]'))) {
+            popupText.innerHTML += "Mellem Fries 28kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/sharing.png"]'))) {
+            popupText.innerHTML += "Sharring Fries 52kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/æbler.png"]'))) {
+            popupText.innerHTML += "Æbler 8kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/gulerødder.png"]'))) {
+            popupText.innerHTML += "Gulerødder 8kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/cola.png"]'))) {
+            popupText.innerHTML += "Mellem Cola 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/fuzetea.png"]'))) {
+            popupText.innerHTML += "Mellem FuzeTea 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/sprite.png"]'))) {
+            popupText.innerHTML += "Mellem Sprite 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/fanta.png"]'))) {
+            popupText.innerHTML += "Mellem Fanta 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/zero.png"]'))) {
+            popupText.innerHTML += "Mellem Cola Zero 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/danskvand.png"]'))) {
+            popupText.innerHTML += "Mellem Dansk vand 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/jordbærshake.png"]'))) {
+            popupText.innerHTML += "Mellem Jordbær Shake 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/chokoshake.png"]'))) {
+            popupText.innerHTML += "Mellem Choko Shake 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/vaniljeshake.png"]'))) {
+            popupText.innerHTML += "Mellem Vanilje Shake 27kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/kampagneshake.png"]'))) {
+            popupText.innerHTML += "Mellem Kampagn. Shake 27kr<br>";
+        }
+		if (cell.contains(document.querySelector('img[src="img/bbq.png"]'))) {
+            popupText.innerHTML += "BBQ Sauce 6kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/sursød.png"]'))) {
+            popupText.innerHTML += "Sursød Sauce 6kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/karry.png"]'))) {
+            popupText.innerHTML += "Karry Sauce 6kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/sennep.png"]'))) {
+            popupText.innerHTML += "Sennep Sauce 6kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/ketchup.png"]'))) {
+            popupText.innerHTML += "Ketchup 3kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/pfsauce.png"]'))) {
+            popupText.innerHTML += "PF. Sauce 4kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/mayodip.png"]'))) {
+            popupText.innerHTML += "Mayo Dip 8kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/chedderdip.png"]'))) {
+            popupText.innerHTML += "Cheddar Dip 8kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/chillimayodip.png"]'))) {
+            popupText.innerHTML += "Chili Mayo Dip 8kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/garlicdip.png"]'))) {
+            popupText.innerHTML += "Garlic Dip 8kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/bearnaisedip.png"]'))) {
+            popupText.innerHTML += "Bearnaise Dip 8kr<br>";
+        }
+        if (cell.contains(document.querySelector('img[src="img/takeouttotal.png"]'))) {
+            popupText.innerHTML += "***END OF SALE***<br>";
+        }
+        popupText.style.display = "block";
+        popupText.style.left = "15px";
+        popupText.style.top = "-596px";
+    }
+</script>
+
+</div> <!-- Slut på containeren -->
+</body>
+</html>
